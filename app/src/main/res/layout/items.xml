@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_height="86dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="4dp"
+        android:padding="4dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/recycle_title"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            tools:text="Description:"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/recycle_date_time"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#000"
+            tools:text="Date and Time:"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
